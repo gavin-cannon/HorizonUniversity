@@ -1,0 +1,68 @@
+﻿:root {
+    --primaryBlue: rgb(3, 78, 252);
+    --secondaryYellow: rgb(251, 255, 5);
+}
+
+nav {
+    background-color: var(--primaryBlue);
+}
+
+footer {
+    background-color: var(--primaryBlue);
+}
+
+a.nav-link{
+    color: white;
+}
+a.navbar-brand{
+    color: white;
+    font-size: 2rem;
+}
+
+.home-content{
+    background-color: var(--secondaryYellow);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer div{
+    color: white;
+}
+
+.privacy-link{
+    color: white;
+    text-decoration: underline;
+}
+
+a.btn.btn-default{
+    color: #212529;
+}
+
+.jumbotron{
+    width:100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.jumbotron-image{
+    max-width: 100%;
+    height: auto;
+    display: auto;
+    margin: 0 auto;
+}
+h2{
+    background-color: var(--secondaryYellow);
+    padding: 10px;
+    border-radius: 10px;
+}
+h1, h2, h3, h4, h5, h6, a.navbar-brand {
+    font-family: "Tenali Ramakrishna", sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
